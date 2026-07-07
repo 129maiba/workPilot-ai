@@ -3,6 +3,10 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
+  <!-- 路由出口，所有页面路由都会在这里渲染 -->
+  <router-view />
+
+  <!-- 下面是你原来的内容，可保留也可删掉 -->
   <div>
     <a href="https://vite.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
